@@ -361,17 +361,6 @@ Real-Time-Flight-Delay-Prediction/
 
 <br/>
 
-## What changed from the reference project
-
-- **Dataset:** one month (January 2024) instead of the multi-year data.
-- **Tools:** only HDFS, Spark (MLlib and Structured Streaming) and Kafka.
-- **Model:** one GBT model with class weighting instead of several models.
-- **Features:** nine selected features.
-- **Streaming:** 1,000 sampled events through Kafka into Spark Structured Streaming.
-- **Dashboard:** a new web page and prediction API.
-- **Removed:** all extra components that are outside the three tools.
-
-<br/>
 
 ## Things to know
 
