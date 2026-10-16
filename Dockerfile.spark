@@ -1,0 +1,6 @@
+FROM apache/spark:3.5.0
+USER root
+# MLlib requires NumPy, and its vector conversion module imports pandas.
+# These pins support the base image's Python 3.8.
+RUN python3 -m pip install --no-cache-dir numpy==1.24.4 pandas==2.0.3
+USER 185

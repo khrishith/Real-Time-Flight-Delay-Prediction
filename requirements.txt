@@ -1,0 +1,3 @@
+# Only needed on the host for the Kafka producer.
+# Spark, HDFS and Kafka themselves run in Docker (see docker-compose.yml).
+kafka-python==2.0.2
